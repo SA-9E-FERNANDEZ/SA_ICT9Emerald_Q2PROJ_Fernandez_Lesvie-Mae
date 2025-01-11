@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit a Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: LightSkyBlue;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Yummy Tummy</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="color: MidnightBlue;">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="categories.html" style="color: MidnightBlue;">Recipe Categories</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="submit.html" style="color: MidnightBlue;">Submit a Recipe</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Recipe Submission Form -->
+<div class="container mt-5">
+    <h2 class="text-center mb-4" style="color: RoyalBlue;">Submit Your Favorite Recipe</h2>
+    <form>
+        <div class="mb-3">
+            <label for="recipeTitle" class="form-label" style="color: DodgerBlue;">Recipe Title</label>
+            <input type="text" class="form-control" id="recipeTitle" placeholder="Enter recipe title" style="border-color: DodgerBlue;">
+        </div>
+        <div class="mb-3">
+            <label for="recipeIngredients" class="form-label" style="color: DodgerBlue;">Ingredients</label>
+            <textarea class="form-control" id="recipeIngredients" rows="4" placeholder="List the ingredients" style="border-color: DodgerBlue;"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="recipeInstructions" class="form-label" style="color: DodgerBlue;">Instructions</label>
+            <textarea class="form-control" id="recipeInstructions" rows="4" placeholder="Provide detailed cooking instructions" style="border-color: DodgerBlue;"></textarea>
+        </div>
+        <button type="submit" class="btn" style="background-color: SteelBlue; color: White;">Submit Recipe</button>
+    </form>
+</div>
+
+
+<!-- Footer -->
+<footer class="text-center mt-5 p-4" style="background-color: LightSkyBlue; color: AliceBlue;">
+    <p>&copy; 2024 Yummy Tummy | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>

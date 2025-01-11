@@ -1,0 +1,161 @@
+/* Importing cute fonts */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Quicksand:wght@400;600&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif; /* Playful and clean font for general text */
+    background-color: white; 
+    color: saddlebrown; 
+}
+
+h1, h2, h3 {
+    font-family: 'Pacifico', cursive; /* Cute, handwritten font for headings */
+    color: peru; 
+}
+
+.carousel-inner img {
+    width: 75%; /* Adjust the percentage to control the width */
+    max-height: 400px; /* Limit the height for smaller images */
+    object-fit: cover; /* Ensures the image maintains its aspect ratio */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 10px; /* Keeps the rounded corners */
+}
+
+
+.navbar {
+    background-color: linen; 
+}
+
+.navbar .nav-link {
+    color: saddlebrown !important; 
+}
+
+.navbar .nav-link.active {
+    color: peru !important; 
+}
+
+.hero {
+    background-color: moccasin; 
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    color: saddlebrown;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    color: sienna;
+}
+
+.btn-primary {
+    background-color: peachpuff; 
+    border: none;
+    font-family: 'Quicksand', sans-serif; /* Matches text style */
+}
+
+.btn-primary:hover {
+    background-color: burlywood; 
+}
+
+.btn-secondary {
+    background-color: peru; 
+    border: none;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.btn-secondary:hover {
+    background-color: chocolate; 
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: peru;
+    font-family: 'Pacifico', cursive; /* Cute heading font */
+}
+
+.card-text {
+    font-size: 1rem;
+    color: sienna;
+    font-family: 'Quicksand', sans-serif; /* Clean text font */
+}
+
+.card .btn {
+    background-color: peachpuff;
+    color: saddlebrown;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.card .btn:hover {
+    background-color: burlywood;
+}
+
+footer {
+    background-color: dimgray;
+    color: white;
+    padding: 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form .form-label {
+    font-weight: bold;
+    color: sienna;
+    font-family: 'Pacifico', cursive; /* Cute label font */
+}
+
+form .form-control {
+    border-radius: 5px;
+    border: 1px solid peachpuff;
+    padding: 10px;
+}
+
+form .form-control:focus {
+    border-color: peru;
+    box-shadow: 0 0 5px rgba(140, 74, 60, 0.5);
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
